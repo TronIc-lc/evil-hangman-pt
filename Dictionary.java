@@ -41,13 +41,13 @@ public class MyClass {
     public ArrayList<String> getWordsOfLength(int len) {
         // Returns an ArrayList of words of the given length.
         int index = 0; 
-        public ArrayList<String> truncatedWordList
+        public ArrayList<String> truncatedWordList = new ArrayList;
         for(int i=0; i < wordList.length(); i++) {
             if(wordList[i].length() == len) {
                 truncatedWordList.add(wordList[i]);
             }
         }
-        return truncateWordList;
+        return truncatedWordList;
     }
     
     public static void main(String[] args) {
