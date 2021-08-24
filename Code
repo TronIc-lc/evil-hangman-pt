@@ -1,0 +1,27 @@
+public class Code {
+    private String word; //stores word
+    private String dashCode; //stores dashcode (--a-)
+    private int numMembers; //number of members
+
+    public Code(String wordInput, String codeInput){
+        word = wordInput;
+        dashCode = codeInput;
+        numMembers = 0;
+    }
+
+    public void addNum(){
+        numMembers += 1;
+    }
+
+    public String getCode(){
+        return dashCode;
+    }
+
+    public String getWord(){
+        return word;
+    }
+
+    public int getNum(){
+        return numMembers;
+    }
+}
